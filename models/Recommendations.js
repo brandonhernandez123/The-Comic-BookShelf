@@ -11,15 +11,15 @@ const Recommend = new Schema(
       type: String,
       required: true
     },
-    thumbnail: {
+    image: {
       type: String,
       required: true
     },
-    reason: {
+    description: {
       type: String,
       required: true
     }
   },
   { timestamps: true }
 )
-modules.export = mongoose.model('recommend', Recommend)
+module.exports = mongoose.model('recommendations', Recommend)
