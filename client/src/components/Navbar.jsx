@@ -3,17 +3,19 @@ import {NavLink} from 'react-router-dom'
 
 function Navbar () {
     return(
-        
+        <header>
             <nav>
-                <h2>The Comic BookShelf</h2>
-                <div>
+                
+                
+                
                 <NavLink to = '/'>Home</NavLink>
                 
-                <NavLink to = '/recommendedcomics'>RecommendedComics</NavLink>
-                <NavLink to = '/mycomicbookshelf'>MyComicBookShelf</NavLink>
-                </div>
-            </nav>
-        
+                <NavLink className = 'navreco' to = '/recommendedcomics'>RecommendedComics</NavLink>
+                <NavLink className = 'navshelf' to = '/mycomicbookshelf'>MyComicBookShelf</NavLink>
+                
+                </nav>
+                <h3>The Comic Bookshelf</h3>
+        </header>
     )
 }
 

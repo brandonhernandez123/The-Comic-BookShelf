@@ -4,6 +4,15 @@ body {
   color: white;
   display: block;
 }
+.navreco {
+  display:flexbox;
+  flex-direction: row;
+}
+nav {
+display: table-row;
+justify-content: space-around;
+}
+
 
 .App-logo {
   height: 40vmin;
