@@ -39,10 +39,11 @@ function Home(props) {
         onSubmit={getSearchResults}
       />
       <br />
-      <div>
+      <div className="grid">
         {searchResults.map((search) => (
           <div key={search.title} className="comicCard">
             <h3>{search.title}</h3>
+            <h4>{search.series.name}</h4>
             <img
               className="thumbnail"
               src={`${search.thumbnail.path}/portrait_fantastic.jpg`}
