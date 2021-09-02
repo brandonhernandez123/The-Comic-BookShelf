@@ -42,14 +42,14 @@ function Home(props) {
       <div className="grid">
         {searchResults.map((search) => (
           <div key={search.title} className="comicCard">
-            <h3>{search.title}</h3>
-            <h4>{search.series.name}</h4>
             <img
               className="thumbnail"
-              src={`${search.thumbnail.path}/portrait_fantastic.jpg`}
+              src={`${search.thumbnail.path}/portrait_incredible.jpg`}
               alt={search.title}
             />
             <p>{search.description}</p>
+            <h3>{search.title}</h3>
+            <h4>{search.series.name}</h4>
             <button>Add To Shelf</button>
           </div>
         ))}

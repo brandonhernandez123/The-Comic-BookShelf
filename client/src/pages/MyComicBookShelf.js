@@ -17,17 +17,14 @@ function MyComicBookshelf(props) {
 
   return (
     <div>
-      <h3>My Comics</h3>
+      <h1>My Comic BookShelf</h1>
       <br />
-      <div>
+      <div className="grid">
         {comic.map((comics) => (
           <div key={comics.title} className="comicCard">
-            <h3>{comics.title}</h3>
-            <img
-              className="thumbnail"
-              src={`${comics.thumbnail}`}
-              alt={comics.title}
-            />
+            <h1>{comics.title}</h1>
+            <img src={`${comics.thumbnail}`} alt={comics.title} />
+            <p>{comics.series}</p>
           </div>
         ))}
       </div>
