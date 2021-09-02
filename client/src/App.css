@@ -4,6 +4,10 @@ body {
   color: white;
   display: block;
 }
+.thumbnail {
+  height: 400px;
+  width: 300px;
+}
 .navreco {
   display:flexbox;
   flex-direction: row;

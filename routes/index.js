@@ -1,6 +1,9 @@
 const { Router } = require('express')
 const router = Router()
 const controllers = require('../controllers')
+const cors = require('cors')
+
+router.use(cors())
 
 router.get('/', (req, res) => res.send('Root works'))
 router.post('/comicadded', controllers.addMyComic)

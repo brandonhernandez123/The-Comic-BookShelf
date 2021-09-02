@@ -1,13 +1,17 @@
 import {React, useState, useEffect} from 'react'
 import axios from 'axios'
-import {BASE_URL} from '../globals'
 
-function MyComics (props){
-const [myComics, setMyComics] = useState([])
- useEffect(()=>{
-     async function myShelf (){
-         const res = await axios.get(`${BASE_URL}/mycomicbookshelf`)
-setMyComics(res.data.results)
-     }
- },[])
-}
+function ComicShelf (props){
+return(
+<div className="grid">
+
+        {props.comic.map((comic) => (
+          <div key={comic.id} className="comicCard">
+            <h3>{comic.title}</h3>
+            
+            <h5>{comic.series}</h5>
+          </div>
+        ))}
+      </div>
+)}
+export default ComicShelf
