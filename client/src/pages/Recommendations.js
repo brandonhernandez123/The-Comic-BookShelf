@@ -9,22 +9,34 @@ function Recommendations(props) {
       const res = await axios.get(`${BASE_URL}/comicrecommendations`)
       setRecommendations(res.data.recommendations)
     }
-    console.log(recommended)
     getRecommendations()
   }, [])
+
+  const deleteReco = async (index) => {
+    try {
+      const id = `${recommended[index]._id}`
+      const res = await axios.delete(`${BASE_URL}/comicrecommendations/${id}`)
+      window.location.reload()
+    } catch (error) {
+      alert('nothing deleted')
+    }
+  }
 
   return (
     <div>
       <h2>Recommended Comicbooks</h2>
       <br />
       <div className="grid">
-        {recommended.map((reco) => (
+        {recommended.map((reco, index) => (
           <div key={reco.title} className="comicCard">
             <h2>{reco.title}</h2>
             <h3>{reco.name}</h3>
+
             <img src={`${reco.image}`} alt={reco.title} />
             <p>{reco.description}</p>
-            <button>Delete Recommendation</button>
+            <button onClick={() => deleteReco(index)}>
+              Delete Recommendation
+            </button>
           </div>
         ))}
       </div>

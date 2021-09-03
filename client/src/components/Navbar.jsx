@@ -4,18 +4,21 @@ import {NavLink} from 'react-router-dom'
 function Navbar () {
     return(
         <header>
+            <div className='wrapper'>
             <nav>
+                <div className='titleofpage'>
+                <h3 className ="title">The Comic Bookshelf</h3>
+                </div>
                 
+                <NavLink className='navlink' to = '/'>Home</NavLink>
                 
-                
-                <NavLink to = '/'>Home</NavLink>
-                
-                <NavLink className = 'navreco' to = '/recommendedcomics'>RecommendedComics</NavLink>
-                <NavLink className = 'navshelf' to = '/mycomicbookshelf'>MyComicBookShelf</NavLink>
-                <NavLink to = '/recommendacomic'>Recommend a Comic</NavLink>
+                <NavLink className='navlink'  to = '/recommendedcomics'>RecommendedComics</NavLink>
+                <NavLink className='navlink'  to = '/mycomicbookshelf'>MyComicBookShelf</NavLink>
+                <NavLink className='navlink' to = '/recommendacomic'>Recommend a Comic</NavLink>
                 
                 </nav>
-                <h3>The Comic Bookshelf</h3>
+                
+                </div>
         </header>
     )
 }

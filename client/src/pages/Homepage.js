@@ -3,11 +3,9 @@ import Search from '../components/Searchcomics'
 import {
   MARVEL_COMICS,
   MARVEL_KEY,
-  MARVEL_ORDERBY,
-  MARVEL_HASH,
   TIMESTAMP,
   HASH,
-  SEARCH_BY_CHARACTER
+  BASE_URL
 } from '../globals'
 import axios from 'axios'
 function Home(props) {
@@ -30,9 +28,12 @@ function Home(props) {
   const getResults = (e) => {
     setSearchQuery(e.target.value)
   }
+  const addToShelf = async () => {
+    const res = await axios.post(`${BASE_URL}/mycomicbookshelf`)
+  }
   return (
     <div>
-      <h4>Search Comics</h4>
+      <h4 className="pagetitle">Search Comics</h4>
       <Search
         value={searchQuery}
         onChange={getResults}
@@ -50,7 +51,7 @@ function Home(props) {
             <p>{search.description}</p>
             <h3>{search.title}</h3>
             <h4>{search.series.name}</h4>
-            <button>Add To Shelf</button>
+            <button onSubmit={addToShelf}>Add To Shelf</button>
           </div>
         ))}
       </div>

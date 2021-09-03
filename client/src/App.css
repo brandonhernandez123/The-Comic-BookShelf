@@ -4,6 +4,51 @@ body {
   color: white;
   display: block;
 }
+
+.pagetitle {
+  background-color: black;
+  height: 100px;
+}
+.wrapper{
+  width: 1170px;
+  margin:0 auto;
+}
+header {
+  height: 80px;
+  width:100%;
+  z-index: 14;
+  position: fixed;
+  background-color: #262626;
+}
+
+.title{
+  width: 30%;
+  float:left;
+  line-height:0px;
+}
+ .title .navlink {
+  text-decoration: none;
+  font-size:15px;
+  color:#fff;
+  letter-spacing: 5px;
+}
+nav {
+  float: right;
+  line-height: 50px;
+}
+
+nav .navlink {
+  letter-spacing: 8px;
+  font-size: 15px;
+  margin: 0, 20px;
+  color:#fff;
+}
+
+input {
+  padding:10px;
+  border-radius: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(250px, 1fr));
@@ -29,20 +74,8 @@ button {
   justify-content: space-between;
   background-color: black;
 }
-/* .thumbnail {
-  height: 400px;
-  width: 300px;
-} */
-.navreco {
-  display:flexbox;
-  flex-direction: row;
-}
-nav {
-display: table-row;
-justify-content: space-around;
-background-color: black;
-color: white;
-}
+
+
 
 
 .App-logo {

@@ -6,7 +6,7 @@ const cors = require('cors')
 router.use(cors())
 
 router.get('/', (req, res) => res.send('Root works'))
-router.post('/comicadded', controllers.addMyComic)
+router.post('/mycomicbookshelf', controllers.addMyComic)
 router.post('/comicrecommendations', controllers.addRecommendation)
 router.get('/mycomicbookshelf', controllers.myComicBookshelf)
 router.get('/viewcomic/:id', controllers.viewComicById)

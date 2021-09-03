@@ -17,7 +17,7 @@ function MyComicBookshelf(props) {
 
   return (
     <div>
-      <h1>My Comic BookShelf</h1>
+      <h1 className="pagetitle">My Comic BookShelf</h1>
       <br />
       <div className="grid">
         {comic.map((comics) => (

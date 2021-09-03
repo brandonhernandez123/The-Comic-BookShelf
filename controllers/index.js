@@ -68,7 +68,7 @@ const recommendedcomics = async (req, res) => {
 const removeRecommendedComic = async (req, res) => {
   try {
     const { id } = req.params
-    const removed = await Recommendation.findByIdAndDelete
+    const removed = await Recommendation.findByIdAndDelete(id)
     if (removed) {
       return res.status(200).send('Removed Comic from Recommendation list')
     }
