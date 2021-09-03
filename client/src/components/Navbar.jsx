@@ -12,6 +12,7 @@ function Navbar () {
                 
                 <NavLink className = 'navreco' to = '/recommendedcomics'>RecommendedComics</NavLink>
                 <NavLink className = 'navshelf' to = '/mycomicbookshelf'>MyComicBookShelf</NavLink>
+                <NavLink to = '/recommendacomic'>Recommend a Comic</NavLink>
                 
                 </nav>
                 <h3>The Comic Bookshelf</h3>
