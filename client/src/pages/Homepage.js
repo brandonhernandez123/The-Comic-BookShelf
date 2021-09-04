@@ -33,13 +33,12 @@ function Home(props) {
   }
   return (
     <div>
-      <h4 className="pagetitle">Search Comics</h4>
+      <br />
       <Search
         value={searchQuery}
         onChange={getResults}
         onSubmit={getSearchResults}
       />
-      <br />
       <div className="grid">
         {searchResults.map((search) => (
           <div key={search.title} className="comicCard">

@@ -1,14 +1,15 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import {Nav,Navbar,Container,NavbarBrand} from 'react-bootstrap'
 
-function Navbar () {
+function NavBar () {
     return(
         <header>
             <div className='wrapper'>
-            <nav>
-                <div className='titleofpage'>
-                <h3 className ="title">The Comic Bookshelf</h3>
-                </div>
+            <Navbar fixed='top' bg="dark" variant="dark">
+            <Container>
+                <NavbarBrand>The Comic Bookshelf</NavbarBrand> 
+                
                 
                 <NavLink className='navlink' to = '/'>Home</NavLink>
                 
@@ -16,12 +17,12 @@ function Navbar () {
                 
                 <NavLink className='navlink'  to = '/mycomicbookshelf'>MyComics</NavLink>
                 <NavLink className='navlink' to = '/recommendacomic'>Recommend a Comic</NavLink>
-                
-                </nav>
+                </Container>
+                </Navbar>
                 
                 </div>
         </header>
     )
 }
 
-export default Navbar
+export default NavBar
