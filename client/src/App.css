@@ -41,14 +41,18 @@ button {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  background-color: darkred;
-  transition: all 0.2s ease;
-  font-weight: 700;
+  background-color: darkblue;
+  
+  font-weight: 900;
   
 }
+button:hover{
+  background-color: white;
+  color: black;
+}
 .comicCard {
-  border-radius: 4px;
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -59,6 +63,14 @@ button {
 
 .comicCard:hover{
   background-color: black;
+}
+
+.socials{
+  color: yellow;
+  text-decoration: none;
+}
+.socials:hover {
+  background-color: red;
 }
 
 

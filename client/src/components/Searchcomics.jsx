@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Button} from 'react-bootstrap'
 function Search (props)  {
     return(
         <form  className="input"onSubmit={props.onSubmit}>
@@ -12,7 +12,9 @@ function Search (props)  {
       />
       <br/>
       <br/>
-      <button type="submit"> Search Comics </button>
+      <div className="d-grid gap-2">
+      <Button variant = 'primary' size='lg' type="submit"> Search Comics</Button> 
+      </div>
     </form>
     )
 }
