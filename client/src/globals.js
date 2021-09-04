@@ -13,7 +13,4 @@ export const HASH = md5(STRING_TO_HASH)
 
 export const MARVEL_ORDERBY = '&orderBy=focDate'
 
-export const COMICVINE_URL = 'http://comicvine.gamespot.com/api'
-export const COMICVINE_KEY = 'c55d019a55254a9ebd48ffa6bf63220facededb9'
-
 //credits https://www.titanwolf.org/Network/q/abce4c5d-da5f-4b90-af3e-d4055c838ffc/y

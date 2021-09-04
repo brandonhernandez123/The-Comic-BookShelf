@@ -55,7 +55,6 @@ function Home(props) {
           </div>
         ))}
       </div>
-      <h4>Random Comic Recommendation</h4>
     </div>
   )
 }

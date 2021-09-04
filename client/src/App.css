@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: url(https://wallpaperaccess.com/full/1835991.jpg);
+  background-color: #262626;
   color: white;
   display: block;
 }
@@ -14,7 +14,7 @@ body {
   margin:0 auto;
 }
 header {
-  height: 80px;
+  height: 100px;
   width:100%;
   z-index: 14;
   position: fixed;
