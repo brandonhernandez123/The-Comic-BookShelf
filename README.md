@@ -15,7 +15,8 @@
 * Mongoose
 * Express
 * React
-* Node 
+* Node
+* React BootStrap 
 
 ***
 
@@ -27,12 +28,14 @@
 
 ### ***Screenshots***
 
-##### image header 1
-![ERD]()
+##### HomePage Screenshot
+![Homepage]('./../client/src/screenshots/homepage.png)
 
-##### image header 2
-![CHD]()
+##### Search Screenshot
+![Search]('./../client/src/screenshots/search.png)
 
+##### Recommended Comics Screenshot
+![Recommended](client/src/screenshots/recommended.png)
 ***
 
 ### ***Future Updates***
