@@ -50,7 +50,7 @@ const addRecommendation = async (req, res) => {
   try {
     const recommendation = await new Recommendation(req.body)
     await recommendation.save()
-    return res.status(200).json({ recommendation })
+    return res.status(201).json({ recommendation })
   } catch (error) {
     return res.status(500).json({ error: error.message })
   }
@@ -59,7 +59,7 @@ const addRecommendation = async (req, res) => {
 const recommendedcomics = async (req, res) => {
   try {
     const recommendations = await Recommendation.find()
-    return res.status(201).json({ recommendations })
+    return res.status(200).json({ recommendations })
   } catch (error) {
     return res.status(500).json({ error: error.message })
   }
