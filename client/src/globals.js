@@ -1,7 +1,10 @@
 import md5 from 'md5'
 export const MARVEL_HASH = `bf82e8d1ba35c9151756f199bf3d63593344869f`
 export const MARVEL_KEY = '411f30e793bd61e8cd96ac17f835698d'
-export const BASE_URL = 'http://localhost:3001/api'
+export const BASE_URL =
+  process.env.NODE_ENV === 'production'
+    ? `${window.location.origin}/api`
+    : 'http://localhost:3001/api'
 export const MARVEL_URL = 'https://gateway.marvel.com'
 export const MARVEL_COMICS =
   'http://gateway.marvel.com/v1/public/comics?titleStartsWith='
