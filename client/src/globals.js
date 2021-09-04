@@ -7,9 +7,9 @@ export const BASE_URL =
     : 'http://localhost:3001/api'
 export const MARVEL_URL = 'https://gateway.marvel.com'
 export const MARVEL_COMICS =
-  'http://gateway.marvel.com/v1/public/comics?titleStartsWith='
+  'https://gateway.marvel.com/v1/public/comics?titleStartsWith='
 export const SEARCH_BY_CHARACTER =
-  'http://gateway.marvel.com/v1/public/characters?name='
+  'https://gateway.marvel.com/v1/public/characters?name='
 export const TIMESTAMP = new Date().getTime()
 export const STRING_TO_HASH = TIMESTAMP + MARVEL_HASH + MARVEL_KEY
 export const HASH = md5(STRING_TO_HASH)
