@@ -10,6 +10,8 @@ function Search (props)  {
         placeholder="Search Comics"
         onChange={props.onChange}
       />
+      <br/>
+      <br/>
       <button type="submit"> Search Comics </button>
     </form>
     )

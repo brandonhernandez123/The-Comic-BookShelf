@@ -6,12 +6,14 @@ import Recommendations from './pages/Recommendations'
 import MyComicBookshelf from './pages/MyComicBookShelf'
 import myComicBookshelf from './pages/MyComicBookShelf'
 import newRecommendation from './pages/MakeRecommendation'
+
 function App() {
   return (
     <div className="App">
       <header>
         <Navbar />
       </header>
+
       <main>
         <Switch>
           <Route exact path="/" component={Home} />

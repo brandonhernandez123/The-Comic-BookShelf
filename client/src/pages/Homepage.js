@@ -32,14 +32,15 @@ function Home(props) {
     const res = await axios.post(`${BASE_URL}/mycomicbookshelf`)
   }
   return (
-    <div>
+    <div className="homepagebody">
+      <h1>Search Comics Below</h1>
       <br />
       <Search
         value={searchQuery}
         onChange={getResults}
         onSubmit={getSearchResults}
       />
-      <div className="grid">
+      <div className="grid" background-color="darkgrey">
         {searchResults.map((search) => (
           <div key={search.title} className="comicCard">
             <img
@@ -50,6 +51,7 @@ function Home(props) {
             <p>{search.description}</p>
             <h3>{search.title}</h3>
             <h4>{search.series.name}</h4>
+
             <button onSubmit={addToShelf}>Add To Shelf</button>
           </div>
         ))}
