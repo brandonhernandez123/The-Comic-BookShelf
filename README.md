@@ -8,7 +8,7 @@
 ***
 
 ### ***Description***
-#### The Comic BookShelf is an app where you can search through a variety of different comic books based one searching via character name, story arc or release date and add it to your "Comic Bookshelf". You can also begin a recomendation thread where you can post a Comic book you highly recommend and why! This Project was for the SEI program at General Assembly and was completed in a week to fully understand how to create a MERN full stack application
+#### The Comic BookShelf is an app where you can search through a variety of different comic books and add it to your "Comic Bookshelf". You can also begin a recomendation thread where you can post a Comic book you highly recommend and why! This Project was created for the SEI program at General Assembly and was completed in a week to fully understand how to create a MERN full stack application
 ***
 
 ### ***Technologies Used***
@@ -31,17 +31,22 @@
 ### ***Screenshots***
 
 ##### HomePage Screenshot
-![Homepage]('./../client/src/screenshots/homepage.png)
+![Homepage]('../../client/src/screenshots/newhomepage.png)
 
 ##### Search Screenshot
-![Search]('./../client/src/screenshots/search.png)
+![Search]('../../client/src/screenshots/newsearch.png)
 
 ##### Recommended Comics Screenshot
-![Recommended](client/src/screenshots/recommended.png)
+![Recommended]('../../client/src/screenshots/newreco.png)
 ***
 
 ### ***Future Updates***
-
+- [ ] Use ComicVine API along with the Marvel API
+- [ ] Add authentication
+- [ ] add feature to view more comic details
+- [ ] Add ability to add comics to users bookshelf
+- [ ] Update Search functionality 
+- [x] Use Marvel API
   
 ***
 
@@ -50,6 +55,7 @@
 #####  [Marvel API](https://developer.marvel.com/)
 ##### [React Bootstrap](https://react-bootstrap.netlify.app/)
 ##### [How to use MD5](https://www.titanwolf.org/Network/q/abce4c5d-da5f-4b90-af3e-d4055c838ffc/y)
+##### [Canva](https://www.canva.com/)
 
 
 ***
