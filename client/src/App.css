@@ -19,7 +19,11 @@ main{
 
 
 .navlink {
-  color:white;
+  color:black;
+  text-decoration: none;
+}
+.navtitle {
+  color: white;
   text-decoration: none;
 }
 
