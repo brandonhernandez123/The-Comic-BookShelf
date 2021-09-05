@@ -42,11 +42,8 @@ input {
   grid-template-columns: repeat(2,minmax(150px,1fr));
   padding: 1.0em;
   grid-gap: 1em;
-  @media screen {
-    max-width: 500px;
-    max-height: 700px;
-    
-  }
+  height: auto;
+  width: 100%;
 }
 button {
   padding: 0.5em 1.2em;
@@ -71,6 +68,8 @@ button:hover{
   justify-content: space-between;
   background-color: darkslategray;
   color: white;
+  height:auto;
+  width: 100%;
 }
 
 .comicCard:hover{
