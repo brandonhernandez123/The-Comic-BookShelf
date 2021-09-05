@@ -25,7 +25,7 @@
 ### ***Getting Started***
 
 ##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/zCEmwWyy/the-comic-bookshelf).
-##### The project itself was deployed and can be viewed [here](URL).
+##### The project itself was deployed and can be viewed [here](https://thecomicbookshelf.herokuapp.com/).
 ***
 
 ### ***Screenshots***
