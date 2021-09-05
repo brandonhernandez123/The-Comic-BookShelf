@@ -47,7 +47,9 @@
 
 ### ***Credits***
 
-#####  [ComicBook Vine API](https://comicvine.gamespot.com/api/)
+#####  [Marvel API](https://developer.marvel.com/)
+##### [React Bootstrap](https://react-bootstrap.netlify.app/)
+
 
 
 ***
