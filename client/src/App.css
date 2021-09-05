@@ -32,9 +32,10 @@ input {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
   grid-gap: 1em;
   padding: 0.5em;
+  
 }
 
 .recogrid {
@@ -88,6 +89,9 @@ button:hover{
 
 @media screen and (max-width: 600px){
   .reco{height:450px}
+  .grid {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
 }
 
 
