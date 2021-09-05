@@ -27,7 +27,7 @@ function Recommendations(props) {
     <div>
       <h2>Recommended Comicbooks</h2>
       <br />
-      <div className="grid">
+      <div className="recogrid">
         {recommended.map((reco, index) => (
           <div key={reco.title} className="comicCard">
             <h2>{reco.title}</h2>

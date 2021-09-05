@@ -36,6 +36,18 @@ input {
   grid-gap: 1em;
   padding: 0.5em;
 }
+
+.recogrid {
+  display:grid;
+  grid-template-columns: repeat(2,minmax(150px,1fr));
+  padding: 1.0em;
+  grid-gap: 1em;
+  @media screen {
+    max-width: 500px;
+    max-height: 700px;
+    
+  }
+}
 button {
   padding: 0.5em 1.2em;
   border-radius: 4px;
@@ -64,6 +76,8 @@ button:hover{
 .comicCard:hover{
   background-color: black;
 }
+
+
 
 .socials{
   color: yellow;

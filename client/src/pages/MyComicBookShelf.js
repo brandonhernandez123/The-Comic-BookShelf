@@ -23,7 +23,11 @@ function MyComicBookshelf(props) {
         {comic.map((comics) => (
           <div key={comics.title} className="comicCard">
             <h1>{comics.title}</h1>
-            <img src={`${comics.thumbnail}`} alt={comics.title} />
+            <img
+              className="thumbnail"
+              src={`${comics.thumbnail}`}
+              alt={comics.title}
+            />
             <p>{comics.series}</p>
           </div>
         ))}
