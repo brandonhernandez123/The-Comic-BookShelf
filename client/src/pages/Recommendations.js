@@ -33,7 +33,7 @@ function Recommendations(props) {
             <h2>{reco.title}</h2>
             <h3>{reco.name}</h3>
 
-            <img src={`${reco.image}`} alt={reco.title} />
+            <img className="reco" src={`${reco.image}`} alt={reco.title} />
             <p>{reco.description}</p>
             <button onClick={() => deleteReco(index)}>
               Delete Recommendation
