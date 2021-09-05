@@ -17,6 +17,8 @@ main{
 
 .reco {
   @media screen and (max-height: 500px; max-width:300px;) {
+    max-height:500px;
+    max-width: 300px;
     
   }
 }
