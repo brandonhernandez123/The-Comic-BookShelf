@@ -15,13 +15,7 @@ main{
   height: 1000vh;
 }
 
-.reco {
-  @media screen and (max-height: 500px; max-width:300px;) {
-    max-height:500px;
-    max-width: 300px;
-    
-  }
-}
+
 
 
 .navlink {
@@ -92,7 +86,9 @@ button:hover{
   background-color: red;
 }
 
-
+@media screen and (max-width: 600px){
+  .reco{height:500px}
+}
 
 
 
