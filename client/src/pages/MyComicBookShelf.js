@@ -24,7 +24,7 @@ function MyComicBookshelf(props) {
           <div key={comics.title} className="comicCard">
             <h1>{comics.title}</h1>
             <img
-              className="thumbnail"
+              className="reco"
               src={`${comics.thumbnail}`}
               alt={comics.title}
             />
