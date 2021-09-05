@@ -67,7 +67,7 @@ function Home(props) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="http://2.bp.blogspot.com/-CcpAOigy-cw/UwCdkpuo6XI/AAAAAAAABJk/_nIoklxvAiE/s1600/marveluniverse.jpg"
+            src="https://wallpapercave.com/wp/wp2436369.jpg"
             alt="Second slide"
           />
 
@@ -112,7 +112,7 @@ function Home(props) {
               src={`${search.thumbnail.path}/portrait_incredible.jpg`}
               alt={search.title}
             />
-            <p>{search.description}</p>
+
             <h3>{search.title}</h3>
             <h4>{search.series.name}</h4>
 

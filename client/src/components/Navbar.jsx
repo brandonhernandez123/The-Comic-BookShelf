@@ -8,10 +8,10 @@ function NavBar () {
             <div className='wrapper'>
             <Navbar fixed='top' bg="dark" variant="dark">
             <Container>
-                <NavbarBrand>The Comic Bookshelf</NavbarBrand> 
+                <NavbarBrand> <NavLink className='navlink' to = '/'>The Comic Bookshelf</NavLink></NavbarBrand> 
                 
                 
-                <NavLink className='navlink' to = '/'>Home</NavLink>
+                
                 
                 <NavLink className='navlink'  to = '/recommendedcomics'>RecommendedComics</NavLink>
                 
