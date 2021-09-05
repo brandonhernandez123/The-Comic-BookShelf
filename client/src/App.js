@@ -19,7 +19,6 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/recommendedcomics" component={Recommendations} />
           <Route path="/mycomicbookshelf" component={myComicBookshelf} />
-          <Route path="/recommendacomic" component={newRecommendation} />
         </Switch>
       </main>
     </div>

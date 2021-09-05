@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { BASE_URL } from '../globals'
+import NewRecommendation from './MakeRecommendation'
 function Recommendations(props) {
   const [recommended, setRecommendations] = useState([])
 
@@ -39,6 +40,10 @@ function Recommendations(props) {
             </button>
           </div>
         ))}
+        <br />
+        <div>
+          <NewRecommendation />
+        </div>
       </div>
     </div>
   )
