@@ -8,15 +8,17 @@
 ***
 
 ### ***Description***
-#### The Comic BookShelf is an app where you can search through a variety of different comic books based one searching via character name, story arc or release date and add it to your "Comic Bookshelf". You can also begin a recomendation thread where you can post a Comic book you highly recommend and why!
+#### The Comic BookShelf is an app where you can search through a variety of different comic books based one searching via character name, story arc or release date and add it to your "Comic Bookshelf". You can also begin a recomendation thread where you can post a Comic book you highly recommend and why! This Project was for the SEI program at General Assembly and was completed in a week to fully understand how to create a MERN full stack application
 ***
 
 ### ***Technologies Used***
-* Mongoose
+ ![MERN](https://miro.medium.com/max/1400/0*GKIyAWHbKbANm7d9.png) 
+ * Mongoose
 * Express
 * React
 * Node
 * React BootStrap 
+ 
 
 ***
 
