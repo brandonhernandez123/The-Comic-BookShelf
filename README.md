@@ -1,5 +1,5 @@
 # The Comic BookShelf
-
+![The Comic Bookshelf](client/src/screenshots/The%20Comic%20Bookshelf.gif)
 ## Date: 08/29/2021
 
 ### By: Brandon Hernandez
@@ -49,7 +49,7 @@
 
 #####  [Marvel API](https://developer.marvel.com/)
 ##### [React Bootstrap](https://react-bootstrap.netlify.app/)
-
+##### [How to use MD5](https://www.titanwolf.org/Network/q/abce4c5d-da5f-4b90-af3e-d4055c838ffc/y)
 
 
 ***
